@@ -359,7 +359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504958426}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0362604, y: 4.763546, z: 9.316683}
+  m_LocalPosition: {x: -1.58, y: 4.763546, z: 9.316683}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 790666648}
@@ -380,11 +380,12 @@ MonoBehaviour:
   myRigidbody: {fileID: 504958427}
   friction: {x: -0.1, y: 0}
   speed: 7
-  speedRun: 28
+  speedRun: 25
   forceJump: 15
   jumpScaleY: 1.2
   jumpScaleX: 0.7
   animationDuration: 0.2
+  dashDuration: 0.1
   ease: 27
 --- !u!114 &504958432
 MonoBehaviour:
@@ -681,7 +682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768804773}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.69, y: -2.71, z: -21.7}
+  m_LocalPosition: {x: -3.2337399, y: -2.71, z: -21.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1032,7 +1033,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001568857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.69, y: -2.71, z: -21.7}
+  m_LocalPosition: {x: -3.2337399, y: -2.71, z: -21.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1289486205}

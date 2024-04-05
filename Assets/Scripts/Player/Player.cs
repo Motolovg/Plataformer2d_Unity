@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     public float jumpScaleY = 1.5f;
     public float jumpScaleX = 0.7f;
     public float animationDuration = .2f;
+    public float dashDuration = .1f;
     public Ease ease = Ease.OutBack;
 
     private void Update()
@@ -29,10 +30,14 @@ public class Player : MonoBehaviour
 
     private void HandleMoviment()
     {
+
         if (Input.GetKey(KeyCode.LeftShift))
+        {
             _currentSpeed = speedRun;
+        }
         else
             _currentSpeed = speed;
+
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
